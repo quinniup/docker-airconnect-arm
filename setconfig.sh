@@ -13,7 +13,7 @@ echo "         <max_volume>100</max_volume>"
 echo "         <codec>${CODEC:-flc}</codec>"
 echo "         <metadata>${METADATA:-1}</metadata>"
 echo "         <artwork>${ARTWORK:-https://raw.githubusercontent.com/pwt/docker-airconnect-arm/master/airconnect-logo.png}</artwork>"
-echo "         <latency>${LATENCY:-1000:1000:f}</latency>"
+echo "         <latency>${LATENCY:-10:10:f}</latency>"
 echo "         <drift>${DRIFT:-1}</drift>"
 echo "         <max_players>${MAX_PLAYERS:-32}</max_players>"
 if [ "$SUPPRESS_FLUSH" ]
